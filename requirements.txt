@@ -1,0 +1,29 @@
+# Core deep learning
+torch==2.5.1
+torchvision==0.20.1
+torchaudio==2.5.1
+
+# Diffusion models & LoRA
+diffusers==0.37.1
+peft==0.19.1
+transformers>=4.40.0
+accelerate>=0.25.0
+safetensors
+
+# Object detection & segmentation
+ultralytics>=8.0.0   # YOLOv8
+
+# Video & image processing
+opencv-python>=4.8.0
+Pillow>=9.0.0
+imageio
+imageio-ffmpeg
+decord
+
+# Scientific computing
+numpy>=1.24.0
+scipy
+scikit-image
+
+# Utilities
+tqdm
